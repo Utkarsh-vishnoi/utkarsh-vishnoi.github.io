@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.utkarshvishnoi.encryptor",
+      "sha256_cert_fingerprints": [
+        "68:A4:51:1C:62:4A:15:2D:8E:2F:7C:50:33:02:E7:CE:E4:2C:C0:89:83:77:7F:9B:0F:8A:AB:54:65:45:99:AD"
+      ]
+    }
+  }
+]
