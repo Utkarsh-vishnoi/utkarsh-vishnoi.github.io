@@ -3,7 +3,7 @@
 # Script version and binary version to download
 VERSION="1.0.0"
 GITHUB_USER="utkarsh-vishnoi"  # TODO: Replace with actual GitHub username
-REPO_NAME="secure-upload"           # TODO: Replace with actual repository name
+REPO_NAME="utkarsh-vishnoi.github.io"           # TODO: Replace with actual repository name
 
 # Colors for output
 RED='\033[0;31m'
