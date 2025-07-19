@@ -85,7 +85,7 @@ else
 fi
 
 # Construct download URL
-DOWNLOAD_URL="https://github.com/${GITHUB_USER}/${REPO_NAME}/raw/refs/heads/master/downloads/${BINARY_NAME}"
+DOWNLOAD_URL="https://utkarsh-vishnoi.github.io/downloads/${BINARY_NAME}"
 
 # Create temporary directory
 TMP_DIR=$(mktemp -d)
