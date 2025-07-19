@@ -112,17 +112,8 @@ if [ "$OS" != "windows" ]; then
     fi
 fi
 
-# Move binary to final location
-if [ "$OS" = "windows" ]; then
-    INSTALL_DIR="$HOME/secure-upload"
-else
-    INSTALL_DIR="/usr/local/bin"
-fi
-
-# Create install directory if it doesn't exist
-mkdir -p "$INSTALL_DIR"
-
-# Move binary to install directory
+# Move binary to current directory
+INSTALL_DIR=$(pwd)
 mv "$TMP_DIR/$BINARY_NAME" "$INSTALL_DIR/secure"
 if [ $? -ne 0 ]; then
     rm -rf "$TMP_DIR"
@@ -133,7 +124,7 @@ fi
 rm -rf "$TMP_DIR"
 
 success "✅ Installation complete!"
-success "🚀 Binary installed to: $INSTALL_DIR/secure"
+success "Binary downloaded to: $INSTALL_DIR/secure"
 
 if [ "$OS" = "windows" ]; then
     info "📝 Note: On Windows, you may need to add $INSTALL_DIR to your PATH"
