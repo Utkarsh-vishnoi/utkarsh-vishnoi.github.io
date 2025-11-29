@@ -1,0 +1,75 @@
+Privacy Policy
+
+Last Updated: 29 November 2025
+
+This Privacy Policy explains how this WhatsApp Business Notification Tool (“Notification Service”) handles data. The Application is intended solely for my personal use and is not provided as a service to the public.
+
+1. Purpose of the Application
+
+This Application is a personal tool that sends WhatsApp notifications to my own WhatsApp number. Notifications are triggered through URLs that I generate.
+No external users interact with or use this Application.
+
+2. Information Processed
+
+The Application processes only the minimum data required to send notifications:
+
+2.1 Personal Data
+
+My own WhatsApp phone number — used only for receiving messages sent by the Application.
+
+2.2 Notification Data
+
+Message content included in the URL trigger (e.g., alert text, IDs, status messages).
+
+The Application does not collect, store, or process personal data about any other individuals.
+
+3. Data Storage
+
+The Application does not permanently store notification content or personal data.
+
+Any temporary data required for message sending exists only in memory or short-term logs (if server logging is enabled).
+
+No analytics, tracking tools, or databases are used.
+
+4. Data Sharing
+
+The Application does not share data with any third parties except:
+
+WhatsApp / Meta Platforms — as required to deliver messages through the WhatsApp Business API.
+
+No data is shared with advertisers, marketers, or external companies.
+
+5. Security
+
+While this Application is for personal use, I take reasonable steps to keep the environment secure, including:
+
+Restricting access to the repository and hosting environment.
+
+Using secure connections (HTTPS) where possible.
+
+Avoiding storage of sensitive data in the codebase.
+
+6. Third-Party Services
+
+The Application relies on the WhatsApp Business API, which is governed by Meta’s privacy and data-handling policies.
+Users (if any) should refer to WhatsApp’s official Privacy Policy for details.
+
+7. No Public Users
+
+Since the Application is not intended for public use, it:
+
+Does not collect data from external individuals.
+
+Does not provide user accounts or access.
+
+Does not offer any user-facing features.
+
+8. Changes to This Privacy Policy
+
+This Privacy Policy may be updated from time to time. Any changes will be committed to this repository with an updated date above.
+
+9. Contact
+
+For questions about this Privacy Policy, you can reach me at:
+
+Email: utkarshvishnoi25@gmail.com
